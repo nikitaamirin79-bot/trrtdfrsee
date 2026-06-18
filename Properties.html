@@ -1,0 +1,905 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Urbanist:ital,wght@0,100..900;1,100..900&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="style\Home_style\typography.css">
+    <link rel="stylesheet" href="style\Properties_style\main_properties.css">
+    <link rel="stylesheet" href="style\Home_style\button.css">
+    <link rel="stylesheet" href="style\Properties_style\adaptive_properties.css">
+    <title>Document</title>
+</head>
+<body>
+    <nav>
+        <section class="navigation paragraph-2">
+            <div class="logo__nav">
+                <picture class="picture">
+                    <source media="(max-width: 768px)" srcset="image_mobile\Home_images_mobile\logo_mobile.png" width="28px">
+                    <source media="(max-width: 1911px)" srcset="image_laptop\Home_images_laptop\logo_laptop.png" width="34px">
+                    <img src="image_desktop\Home_images\logo.png">
+                </picture>
+
+                <picture class="picture">
+                    <source media="(max-width: 768px)" srcset="image_mobile\Home_images_mobile\logo_text_mobile.png">
+                    <source media="(max-width: 1911px)" srcset="image_laptop\Home_images_laptop\logo_text_laptop.png">
+                    <img src="image_desktop\Home_images\logo_text.png">
+                </picture>
+            </div>
+
+            <div class="btn__nav no_mobile">
+                <a href="index.html" class="link">Home</a>
+                <a href="About_Us_Page.html" class="link">About Us</a>
+                <a href="Properties.html" class="link link_active">Properties</a>
+                <a href="Services.html" class="link">Services</a>
+            </div>
+
+            <a href="ContactUS.html" class="btn__black no_mobile">Contact Us</a>
+            <a href="#" class="mobile_nav_btn">
+                <img src="image_mobile\Home_images_mobile\nav_menu_mobile.png">
+            </a>
+        </section>
+    </nav>
+
+    <header>
+        <section class="header">
+            <div class="header_hero">
+                <h2 class="heading-2 heading-2-mobile">Find Your Dream Property</h2>
+                <p class="paragraph-2 gray">
+                    Welcome to Estatein, where your dream property awaits in every corner of our beautiful world. Explore our curated selection of properties, each offering a unique 
+                    <br class="br_laptop">
+                    story and 
+                    <br class="br_desktop">
+                    a chance to redefine your life. With categories to suit every dreamer, your journey 
+                </p>
+            </div>
+
+            <div class="header_search no_mobile">
+                <div class="input_block">
+                    <input 
+                    type="text"
+                    placeholder="Search For A Property"
+                    class="input_header_search">
+                    <a href="Property_Details.html" class="btn__violet btn__violet-block">
+                        <picture class="picture">
+                            <source media="(max-width: 1911px)" srcset="image_laptop\Properties_images_laptop\search_icon_Properties_laptop.png">
+                            <img src="image_desktop\Properties_images\search_icon_Properties.png">
+                        </picture>
+                        <p class="paragraph-2 white">Find Property</p>
+                    </a>
+                </div>
+                <div class="header_search_summary">
+                    <div class="search_summary_card">
+                        <div class="summary_card_title">
+                            <picture class="picture">
+                                <source media="(max-width: 1911px)" srcset="image_laptop\Properties_images_laptop\Icon2_Properties_laptop.png">
+                                <img src="image_desktop\Properties_images\Icon2_Properties.png">
+                            </picture>
+
+                            <span class="gray-stick"></span>
+
+                            <p class="paragraph-2 gray paragraph-2-two">Location</p>
+                        </div>
+
+                        <a href="#" class="down_btn">
+                            <picture class="picture">
+                                <source media="(max-width: 1911px)" srcset="image_laptop\Properties_images_laptop\Icon7_Properties_laptop.png">
+                                <img src="image_desktop\Properties_images\Icon7_Properties.png">
+                            </picture>
+                        </a>
+                    </div>
+
+                    <div class="search_summary_card">
+                        <div class="summary_card_title">
+                            <picture class="picture">
+                                <source media="(max-width: 1911px)" srcset="image_laptop\Properties_images_laptop\Icon3_Properties_laptop.png">
+                                <img src="image_desktop\Properties_images\Icon3_Properties.png">
+                            </picture>
+
+                            <span class="gray-stick"></span>
+
+                            <p class="paragraph-2 gray paragraph-2-two">Property Type</p>
+                        </div>
+
+                        <a href="#" class="down_btn">
+                            <picture class="picture">
+                                <source media="(max-width: 1911px)" srcset="image_laptop\Properties_images_laptop\Icon7_Properties_laptop.png">
+                                <img src="image_desktop\Properties_images\Icon7_Properties.png">
+                            </picture>
+                        </a>
+                    </div>
+
+                    <div class="search_summary_card">
+                        <div class="summary_card_title">
+                            <picture class="picture">
+                                <source media="(max-width: 1911px)" srcset="image_laptop\Properties_images_laptop\Icon4_Properties_laptop.png">
+                                <img src="image_desktop\Properties_images\Icon4_Properties.png">
+                            </picture>
+
+                            <span class="gray-stick"></span>
+
+                            <p class="paragraph-2 gray paragraph-2-two">Pricing Range</p>
+                        </div>
+
+                        <a href="#" class="down_btn">
+                            <picture class="picture">
+                                <source media="(max-width: 1911px)" srcset="image_laptop\Properties_images_laptop\Icon7_Properties_laptop.png">
+                                <img src="image_desktop\Properties_images\Icon7_Properties.png">
+                            </picture>
+                        </a>
+                    </div>
+
+                    <div class="search_summary_card">
+                        <div class="summary_card_title">
+                            <picture class="picture">
+                                <source media="(max-width: 1911px)" srcset="image_laptop\Properties_images_laptop\Icon5_Properties_laptop.png">
+                                <img src="image_desktop\Properties_images\Icon5_Properties.png">
+                            </picture>
+
+                            <span class="gray-stick"></span>
+
+                            <p class="paragraph-2 gray paragraph-2-two">Property Size</p>
+                        </div>
+
+                        <a href="#" class="down_btn">
+                            <picture class="picture">
+                                <source media="(max-width: 1911px)" srcset="image_laptop\Properties_images_laptop\Icon7_Properties_laptop.png">
+                                <img src="image_desktop\Properties_images\Icon7_Properties.png">
+                            </picture>
+                        </a>
+                    </div>
+
+                    <div class="search_summary_card">
+                        <div class="summary_card_title">
+                            <picture class="picture">
+                                <source media="(max-width: 1911px)" srcset="image_laptop\Properties_images_laptop\Icon6_Properties_laptop.png">
+                                <img src="image_desktop\Properties_images\Icon6_Properties.png">
+                            </picture>
+
+                            <span class="gray-stick"></span>
+
+                            <p class="paragraph-2 gray paragraph-2-two">Build Year</p>
+                        </div>
+
+                        <a href="#" class="down_btn">
+                            <picture class="picture">
+                                <source media="(max-width: 1911px)" srcset="image_laptop\Properties_images_laptop\Icon7_Properties_laptop.png">
+                                <img src="image_desktop\Properties_images\Icon7_Properties.png">
+                            </picture>
+                        </a>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <section class="sub_header mobile">
+            <div class="sub_header_search_mobile">
+                <input 
+                    type="text"
+                    placeholder="Search For A Property"
+                    class="input_header_search">
+                <a href="Property_Details.html" class="btn__violet-search btn_absolut">
+                    <picture class="picture">
+                        <source media="(max-width: 1911px)" srcset="image_laptop\Properties_images_laptop\search_icon_Properties_laptop.png">
+                        <img src="image_desktop\Properties_images\search_icon_Properties.png">
+                    </picture>
+                </a>
+            </div>
+
+            <div class="sub_header_features">
+                <div class="sub_header_card">
+                    <div class="header_card_title">
+                        <img src="image_laptop\Properties_images_laptop\Icon2_Properties_laptop.png">
+                        <span class="gray-stick"></span>
+                        <p class="paragraph-2 gray">Location</p>
+                    </div>
+                    <a href="#" class="down_btn">
+                        <img src="image_laptop\Properties_images_laptop\Icon7_Properties_laptop.png">
+                    </a>
+                </div>
+
+                <div class="sub_header_card">
+                    <div class="header_card_title">
+                        <img src="image_laptop\Properties_images_laptop\Icon3_Properties_laptop.png">
+                        <span class="gray-stick"></span>
+                        <p class="paragraph-2 gray">Property Type</p>
+                    </div>
+                    <a href="#" class="down_btn">
+                        <img src="image_laptop\Properties_images_laptop\Icon7_Properties_laptop.png">
+                    </a>
+                </div>
+
+                <div class="sub_header_card">
+                    <div class="header_card_title">
+                        <img src="image_laptop\Properties_images_laptop\Icon4_Properties_laptop.png">
+                        <span class="gray-stick"></span>
+                        <p class="paragraph-2 gray">Pricing Range</p>
+                    </div>
+                    <a href="#" class="down_btn">
+                        <img src="image_laptop\Properties_images_laptop\Icon7_Properties_laptop.png">
+                    </a>
+                </div>
+
+                <div class="sub_header_card">
+                    <div class="header_card_title">
+                        <img src="image_laptop\Properties_images_laptop\Icon5_Properties_laptop.png">
+                        <span class="gray-stick"></span>
+                        <p class="paragraph-2 gray">Property Size</p>
+                    </div>
+                    <a href="#" class="down_btn">
+                        <img src="image_laptop\Properties_images_laptop\Icon7_Properties_laptop.png">
+                    </a>
+                </div>
+
+                <div class="sub_header_card">
+                    <div class="header_card_title">
+                        <img src="image_laptop\Properties_images_laptop\Icon6_Properties_laptop.png">
+                        <span class="gray-stick"></span>
+                        <p class="paragraph-2 gray">Build Year</p>
+                    </div>
+                    <a href="#" class="down_btn">
+                        <img src="image_laptop\Properties_images_laptop\Icon7_Properties_laptop.png">
+                    </a>
+                </div>
+            </div>
+        </section>
+    </header>
+
+    <main>
+        <section class="featured">
+            <div class="featured__top">
+                <div class="featured__title">
+                    <h2 class="heading-2 heading-2-mobile">Discover a World of Possibilities</h2>
+                    <p class="paragraph-2 gray">
+                        Our portfolio of properties is as diverse as your dreams. Explore the following categories to find the perfect property that resonates with your 
+                        <br class="br_laptop">
+                        vision of home
+                    </p>
+                </div>
+                <picture class="zvezdi">
+                    <source media="(max-width: 768px)" srcset="image_mobile\Home_images_mobile\zvezdi_mobile.png">
+                    <source media="(max-width: 1911px)" srcset="image_laptop\Home_images_laptop\zvezdi_laptop.png">
+                    <img src="image_desktop\Home_images\zvezdi.png"  width="90px">
+                </picture>
+            </div>
+            <div class="cards_and_scroll">
+                <div class="featured_cards_section">
+                    <section class="featured__card ">
+                        <picture class="picture">
+                            <source media="(max-width: 768px)" srcset="image_mobile\Properties_images_mobile\ImageCard_Properties_mobile.png">
+                            <source media="(max-width: 1911px)" srcset="image_laptop\Home_images_laptop\ImageCard1_laptop.png" width="353.33px">
+                            <img src="image_desktop\Home_images\ImageCard1.png">
+                        </picture>
+                        <div class="featured__card__content">
+                            <p class="paragraph-2 white title_card__content paragraph-2-two">
+                                Coastal Escapes - Where Waves Beckon
+                            </p>
+
+                            <div class="card__title">
+                                <h3 class="heading-3 heading-3_mobile-2">Seaside Serenity Villa</h3>
+                                <p class="paragraph-2 gray">Wake up to the soothing melody of waves. This beachfront villa offers... 
+                                    <a href="#" class="link">Read More</a>
+                                </p>
+                            </div>
+
+                            <div class="last__card__content">
+                                <div class="last__card__content__title">
+                                    <p class="paragraph-2 gray">Price</p>
+                                    <h3 class="heading-3 heading-3_mobile-2">$1,250,000</h3>
+                                </div>
+                                <a href="#" class="btn__violet-2">View Property Details</a>
+                            </div>
+                        </div>
+                    </section>
+
+                    <section class="featured__card no_mobile">
+                        <picture class="picture">
+                            <source media="(max-width: 1911px)" srcset="image_laptop\Home_images_laptop\ImageCard2_laptop.png" width="353.33px">
+                            <img src="image_desktop\Home_images\ImageCard2.png">
+                        </picture>
+                        <div class="featured__card__content">
+                            <p class="paragraph-2 white title_card__content paragraph-2-two">
+                                Urban Oasis - Life in the Heart of the City
+                            </p>
+
+                            <div class="card__title">
+                                <h3 class="heading-3">Metropolitan Haven</h3>
+                                <p class="paragraph-2 gray">Immerse yourself in the energy of the city. This modern apartment in the heart...
+                                    <a href="#" class="link">Read More</a>
+                                </p>
+                            </div>
+                            
+                            <div class="last__card__content">
+                                <div class="last__card__content__title">
+                                    <p class="paragraph-2 gray">Price</p>
+                                    <h3 class="heading-3">$650,000</h3>
+                                </div>
+                                <a href="#" class="btn__violet-2">View Property Details</a>
+                            </div>
+                        </div>
+                    </section>
+
+                    <section class="featured__card no_mobile">
+                        <picture class="picture">
+                            <source media="(max-width: 768px)" srcset="image_mobile\Home_images_mobile\ImageCard_mobile.png" width="310px">
+                            <source media="(max-width: 1911px)" srcset="image_laptop\Home_images_laptop\ImageCard3_laptop.png" width="353.33px">
+                            <img src="image_desktop\Home_images\ImageCard3.png">
+                        </picture>
+                        <div class="featured__card__content">
+                            <p class="paragraph-2 white title_card__content paragraph-2-two">
+                                Countryside Charm - Escape to Nature's Embrace
+                            </p>
+
+                            <div class="card__title">
+                                <h3 class="heading-3 heading-3_mobile-2">Rustic Retreat Cottage</h3>
+                                <p class="paragraph-2 gray">Find tranquility in the countryside. This charming cottage is nestled amidst rolling hills... 
+                                    <a href="#" class="link">Read More</a>
+                                </p>
+                            </div>
+                            
+                            <div class="last__card__content">
+                                <div class="last__card__content__title">
+                                    <p class="paragraph-2 gray">Price</p>
+                                    <h3 class="heading-3 heading-3_mobile-2">$350,000</h3>
+                                </div>
+                                <a href="#" class="btn__violet-2">View Property Details</a>
+                            </div>
+                        </div>
+                    </section>
+                </div>
+                <div class="slide__block no_mobile">
+                    <span class="number__scroll no_mobile">
+                        <p class="paragraph-1 scroll-p">01</p>
+                        <p class="paragraph-1 scroll-p gray">of 10</p>
+                    </span>
+
+                    <div class="scoll__btn">
+                        <a href="#">
+                            <picture class="picture">
+                                <source media="(max-width: 768px)" srcset="image_mobile\Home_images_mobile\vector_left_mobile.png" width="24px">
+                                <source media="(max-width: 1911px)" srcset="image_laptop\Home_images_laptop\vector_left_laptop.png" width="24px">
+                                <img src="image_desktop\Home_images\vektor__left.png" class="vector__btn">
+                            </picture>
+                        </a>
+        
+                        <a href="#">
+                            <picture class="picture">
+                                <source media="(max-width: 768px)" srcset="image_mobile\Home_images_mobile\vector_right_mobile.png" width="24px">
+                                <source media="(max-width: 1911px)" srcset="image_laptop\Home_images_laptop\vector_right_laptop.png" width="24px">
+                                <img src="image_desktop\Home_images\vector__right.png" class="vector__btn right">
+                            </picture>
+                        </a>
+                    </div>
+                </div>
+
+                <div class="slide__block_mobile">
+                    <div class="scoll__btn_mobile">
+                        <a href="#">
+                            <picture class="picture">
+                                <source media="(max-width: 768px)" srcset="image_mobile\Home_images_mobile\vector_left_mobile.png" width="24px">
+                                <source media="(max-width: 1911px)" srcset="image_laptop\Home_images_laptop\vector_left_laptop.png" width="24px">
+                                <img src="image_desktop\Home_images\vektor__left.png" class="vector__btn">
+                            </picture>
+                        </a>
+
+                        <span class="number__scroll">
+                            <p class="paragraph-1 scroll-p">01</p>
+                            <p class="paragraph-1 scroll-p gray">of 10</p>
+                        </span>
+
+                        <a href="#">
+                            <picture class="picture">
+                                <source media="(max-width: 768px)" srcset="image_mobile\Home_images_mobile\vector_right_mobile.png" width="24px">
+                                <source media="(max-width: 1911px)" srcset="image_laptop\Home_images_laptop\vector_right_laptop.png" width="24px">
+                                <img src="image_desktop\Home_images\vector__right.png" class="vector__btn right">
+                            </picture>
+                        </a>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <section class="happen">
+            <div class="featured__title">
+                <h2 class="heading-2 heading-2-mobile">Let's Make it Happen</h2>
+                <p class="paragraph-2 gray">
+                    Ready to take the first step toward your dream property? Fill out the form below, and our real estate wizards will work their magic to find your perfect match. Don't 
+                    <br class="no_mobile">
+                    wait; let's embark on this exciting journey together.
+                </p>
+                <picture class="zvezdi">
+                    <source media="(max-width: 768px)" srcset="image_mobile\Home_images_mobile\zvezdi_mobile.png">
+                    <source media="(max-width: 1911px)" srcset="image_laptop\Home_images_laptop\zvezdi_laptop.png">
+                    <img src="image_desktop\Home_images\zvezdi.png"  width="90px">
+                </picture>
+            </div>
+
+            <div class="happen_form_block">
+                <div class="form_section no_mobile">
+                   <section class="form-1">
+                        <div class="form-1_input">
+                            <h4 class="heading-4">First Name</h4>
+                            <input 
+                            type="name"
+                            placeholder="Enter First Name"
+                            class="imput_first_name">
+                        </div>
+
+                        <div class="form-1_input">
+                            <h4 class="heading-4">Last Name</h4>
+                            <input 
+                            type="name"
+                            placeholder="Enter Last Name"
+                            class="imput_last_name">
+                        </div>
+
+                        <div class="form-1_input">
+                            <h4 class="heading-4">Email</h4>
+                            <input 
+                            type="email"
+                            placeholder="Enter your Email"
+                            class="imput_email">
+                        </div>
+
+                        <div class="form-1_input">
+                            <h4 class="heading-4">Phone</h4>
+                            <input 
+                            type="tel"
+                            placeholder="Enter Phone Number"
+                            class="imput_number">
+                        </div>
+                   </section> 
+                        
+                   <section class="form-2">
+                        <div class="form-2_block">
+                            <h4 class="heading-4">Preferred Location</h4>
+                            <div class="form-2_block_slide_btn">
+                                <p class="paragraph-2 gray paragraph-2-two">Select Location</p>
+                                <a href="#">
+                                    <picture class="picture">
+                                        <source media="(max-width: 1911px)" srcset="image_laptop\Properties_images_laptop\Icon7_Properties_laptop.png">
+                                        <img src="image_desktop\Properties_images\Icon7_Properties.png">
+                                    </picture>
+                                </a>
+                            </div>
+                        </div>
+
+                        <div class="form-2_block">
+                            <h4 class="heading-4">Property Type</h4>
+                            <div class="form-2_block_slide_btn">
+                                <p class="paragraph-2 gray paragraph-2-two">Select Property Type</p>
+                                <a href="#">
+                                    <picture class="picture">
+                                        <source media="(max-width: 1911px)" srcset="image_laptop\Properties_images_laptop\Icon7_Properties_laptop.png">
+                                        <img src="image_desktop\Properties_images\Icon7_Properties.png">
+                                    </picture>
+                                </a>
+                            </div>
+                        </div>
+
+                        <div class="form-2_block">
+                            <h4 class="heading-4">No. of Bathrooms</h4>
+                            <div class="form-2_block_slide_btn">
+                                <p class="paragraph-2 gray paragraph-2-two">Select no. of Bedrooms</p>
+                                <a href="#">
+                                    <picture class="picture">
+                                        <source media="(max-width: 1911px)" srcset="image_laptop\Properties_images_laptop\Icon7_Properties_laptop.png">
+                                        <img src="image_desktop\Properties_images\Icon7_Properties.png">
+                                    </picture>
+                                </a>
+                            </div>
+                        </div>
+
+                        <div class="form-2_block">
+                            <h4 class="heading-4">No. of Bedrooms</h4>
+                            <div class="form-2_block_slide_btn">
+                                <p class="paragraph-2 gray paragraph-2-two">Select no. of Bedrooms</p>
+                                <a href="#">
+                                    <picture class="picture">
+                                        <source media="(max-width: 1911px)" srcset="image_laptop\Properties_images_laptop\Icon7_Properties_laptop.png">
+                                        <img src="image_desktop\Properties_images\Icon7_Properties.png">
+                                    </picture>
+                                </a>
+                            </div>
+                        </div>
+                   </section>
+                        
+                   <section class="form-3">
+                        <div class="form-2_block">
+                            <h4 class="heading-4">Budget</h4>
+                            <div class="form-2_block_slide_btn">
+                                <p class="paragraph-2 gray paragraph-2-two">Select Budget</p>
+                                <a href="#">
+                                    <picture class="picture">
+                                        <source media="(max-width: 1911px)" srcset="image_laptop\Properties_images_laptop\Icon7_Properties_laptop.png">
+                                        <img src="image_desktop\Properties_images\Icon7_Properties.png">
+                                    </picture>
+                                </a>
+                            </div>
+                        </div>
+
+                        <div class="form-2_block">
+                            <h4 class="heading-4">Preferred Contact Method</h4>
+                            <div class="radio_input_block">
+                                <div class="input_email_radio">
+                                    <div class="input_email_radio_title">
+                                        <picture class="picture">
+                                            <source media="(max-width: 1911px)" srcset="image_laptop\Properties_images_laptop\tel_icon_Properties_laptop.png">
+                                            <img src="image_desktop\Properties_images\tel_icon_Properties.png">
+                                        </picture>
+                                        <p class="paragraph-2 gray paragraph-2-two">Enter Your Number</p>
+                                    </div>
+
+                                    <input type="radio" name="property">
+                                </div>
+
+                                <div class="input_email_radio">
+                                    <div class="input_email_radio_title">
+                                        <picture class="picture">
+                                            <source media="(max-width: 1911px)" srcset="image_laptop\Properties_images_laptop\email_icon_Properties_laptop.png">
+                                            <img src="image_desktop\Properties_images\email_icon_Properties.png">
+                                        </picture>
+                                        <p class="paragraph-2 gray paragraph-2-two">Enter Your Email</p>
+                                    </div>
+
+                                    <input type="radio" name="property">
+                                </div>
+                            </div>
+                        </div>
+                   </section>
+
+                   <section class="form-4">
+                        <h4 class="heading-4">Message</h4>
+                        <textarea
+                        id="message"
+                        placeholder="Enter your Message here.."></textarea>
+                   </section>
+                </div>
+
+                <div class="form_section_mobile">
+                    <div class="form_block">
+                        <h4 class="heading-4 heading-4_mobile">First Name</h4>
+                        <input type="name" placeholder="Enter First Name" class="imput_first_name">
+                    </div>
+
+                    <div class="form_block">
+                        <h4 class="heading-4 heading-4_mobile">Last Name</h4>
+                        <input type="name" placeholder="Enter Last Name" class="imput_first_name">
+                    </div>
+
+                    <div class="form_block">
+                        <h4 class="heading-4 heading-4_mobile">Email</h4>
+                        <input type="name" placeholder="Enter your Email" class="imput_first_name">
+                    </div>
+
+                    <div class="form_block">
+                        <h4 class="heading-4 heading-4_mobile">Phone</h4>
+                        <input type="name" placeholder="Enter Phone Number" class="imput_first_name">
+                    </div>
+
+                    <div class="form_block">
+                        <h4 class="heading-4 heading-4_mobile">Preferred Location</h4>
+                        <div class="form-2_block_slide_btn">
+                            <p class="paragraph-2 gray paragraph-2-two">Select Location</p>
+                            <a href="#">
+                                <picture class="picture">
+                                    <source media="(max-width: 1911px)" srcset="image_laptop\Properties_images_laptop\Icon7_Properties_laptop.png">
+                                    <img src="image_desktop\Properties_images\Icon7_Properties.png">
+                                </picture>
+                            </a>
+                        </div>
+                    </div>
+
+                    <div class="form_block">
+                        <h4 class="heading-4 heading-4_mobile">Property Type</h4>
+                        <div class="form-2_block_slide_btn">
+                            <p class="paragraph-2 gray paragraph-2-two">Select Property Type</p>
+                            <a href="#">
+                                <picture class="picture">
+                                    <source media="(max-width: 1911px)" srcset="image_laptop\Properties_images_laptop\Icon7_Properties_laptop.png">
+                                    <img src="image_desktop\Properties_images\Icon7_Properties.png">
+                                </picture>
+                            </a>
+                        </div>
+                    </div>
+
+                    <div class="form_block">
+                        <h4 class="heading-4 heading-4_mobile">No. of Bathrooms</h4>
+                        <div class="form-2_block_slide_btn">
+                            <p class="paragraph-2 gray paragraph-2-two">Select no. of Bedrooms</p>
+                            <a href="#">
+                                <picture class="picture">
+                                    <source media="(max-width: 1911px)" srcset="image_laptop\Properties_images_laptop\Icon7_Properties_laptop.png">
+                                    <img src="image_desktop\Properties_images\Icon7_Properties.png">
+                                </picture>
+                            </a>
+                        </div>
+                    </div>
+
+                    <div class="form_block">
+                        <h4 class="heading-4 heading-4_mobile">No. of Bedrooms</h4>
+                        <div class="form-2_block_slide_btn">
+                            <p class="paragraph-2 gray paragraph-2-two">Select no. of Bedrooms</p>
+                            <a href="#">
+                                <picture class="picture">
+                                    <source media="(max-width: 1911px)" srcset="image_laptop\Properties_images_laptop\Icon7_Properties_laptop.png">
+                                    <img src="image_desktop\Properties_images\Icon7_Properties.png">
+                                </picture>
+                            </a>
+                        </div>
+                    </div>
+
+                    <div class="form_block">
+                        <h4 class="heading-4 heading-4_mobile">Budget</h4>
+                        <div class="form-2_block_slide_btn">
+                            <p class="paragraph-2 gray paragraph-2-two">Select Budget</p>
+                            <a href="#">
+                                <picture class="picture">
+                                    <source media="(max-width: 1911px)" srcset="image_laptop\Properties_images_laptop\Icon7_Properties_laptop.png">
+                                    <img src="image_desktop\Properties_images\Icon7_Properties.png">
+                                </picture>
+                            </a>
+                        </div>
+                    </div>
+
+                    <div class="form_block">
+                        <h4 class="heading-4 heading-4_mobile">Preferred Contact Method</h4>
+                        <div class="radio_block">
+                            <div class="input_email_radio">
+                                <div class="input_email_radio_title">
+                                    <picture class="picture">
+                                        <source media="(max-width: 1911px)" srcset="image_laptop\Properties_images_laptop\tel_icon_Properties_laptop.png">
+                                        <img src="image_desktop\Properties_images\tel_icon_Properties.png">
+                                    </picture>
+                                    <p class="paragraph-2 gray paragraph-2-two">Enter Your Number</p>
+                                </div>
+                                <input type="radio" name="property">
+                            </div>
+
+                            <div class="input_email_radio">
+                                <div class="input_email_radio_title">
+                                    <picture class="picture">
+                                        <source media="(max-width: 1911px)" srcset="image_laptop\Properties_images_laptop\email_icon_Properties_laptop.png">
+                                        <img src="image_desktop\Properties_images\email_icon_Properties.png">
+                                    </picture>
+                                    <p class="paragraph-2 gray paragraph-2-two">Enter Your Email</p>
+                                </div>
+                                <input type="radio" name="property">
+                            </div>
+
+                        </div>
+                    </div>
+
+                    <div class="form_block">
+                        <h4 class="heading-4 heading-4_mobile">Message</h4>
+                        <textarea
+                        id="message"
+                        placeholder="Enter your Message here.."></textarea>
+                    </div>
+                </div>
+
+                <div class="privacy_policy_section">
+                    <div class="checkbox_block">
+                        <input type="checkbox">
+                        <p class="paragraph-2 gray">I agree with Terms of Use and Privacy Policy</p>
+                    </div>
+                    <a href="#" class="btn__violet-3 paragraph-2">Send Your Message</a>
+                </div>
+            </div>
+        </section>
+
+        <section class="CTA">
+            <div class="CTA__title">
+                <h2 class="heading-2 white heading-2-mobile">Start Your Real Estate Journey Today</h2>
+                <p class="paragraph-2 gray">
+                    Your dream property is just a click away. Whether you're looking for a new home, a strategic investment, or expert real estate advice, 
+                    <br class="br_laptop">
+                    <br class="br_mobile">
+                    Estatein is 
+                    <br class="br_desktop">
+                    here to assist you every step of the way. Take the first step towards your real estate goals and explore our available properties 
+                    <br class="br_laptop">
+                    <br class="br_mobile">
+                    or get in touch 
+                    <br class="br_desktop">
+                    with our team for personalized assistance.
+                </p>
+            </div>
+            <a href="#" class="btn__violet paragraph-2 flex_btn">Explore Properties</a>
+            <picture class="picture abstract__left">
+                <source media="(max-width: 768px)" srcset="image_mobile\Home_images_mobile\Abstract_left_mobile.png">
+                <source media="(max-width: 1911px)" srcset="image_laptop\Home_images_laptop\Abstract_left_laptop.png">
+                <img src="image_desktop\Home_images\Abstract_left.png">
+            </picture>
+
+            <picture class="picture abstract__right">
+                <source media="(max-width: 768px)" srcset="image_mobile\Home_images_mobile\Abstract_right_mobile.png">
+                <source media="(max-width: 1911px)" srcset="image_laptop\Home_images_laptop\Abstract_right_laptop.png">
+                <img src="image_desktop\Home_images\Abstract_right.png">
+            </picture>
+        </section>
+    </main>
+
+    <footer>
+        <section class="footer">
+            <div class="contact__footer">
+                <div class="logo__nav">
+                    <picture class="picture">
+                        <source media="(max-width: 1911px)" srcset="image_laptop\Home_images_laptop\logo_laptop.png" width="34px">
+                        <img src="image_desktop\Home_images\logo.png">
+                    </picture>
+
+                    <picture class="picture">
+                        <source media="(max-width: 1911px)" srcset="image_laptop\Home_images_laptop\logo_text_laptop.png">
+                        <img src="image_desktop\Home_images\logo_text.png">
+                    </picture>
+                </div>
+                <div class="label__block">
+                    <label for="email" class="label__footer">
+                        <input id="email" type="email" placeholder="Enter Your Email" class="input__footer">
+                    </label>
+
+                    <picture class="placeholder__left picture">
+                        <source media="(max-width: 1911px)" srcset="image_laptop\Home_images_laptop\Icon5_laptop.png">
+                        <img src="image_desktop\Home_images\Icon5.png">
+                    </picture>
+
+                    <a href="#" class="placeholder__right">
+                        <picture class="picture">
+                            <source media="(max-width: 1911px)" srcset="image_laptop\Home_images_laptop\Icon6_laptop.png">
+                            <img src="image_desktop\Home_images\Icon6.png">
+                        </picture>
+                    </a>
+                </div>
+            </div>
+            <nav class="footer__navigation no_mobile">
+                <div class="footer__list">
+                    <p class="paragraph-1 gray">Home</p>
+                    <ul class="ul__footer">
+                        <li><a href="#" class="link paragraph-2">Hero Section</a></li>
+                        <li><a href="#" class="link paragraph-2">Features</a></li>
+                        <li><a href="#" class="link paragraph-2">Properties</a></li>
+                        <li><a href="#" class="link paragraph-2">Testimonials</a></li>
+                        <li><a href="#" class="link paragraph-2">FAQ’s</a></li>
+                    </ul>
+                </div>
+                <div class="footer__list">
+                    <p class="paragraph-1 gray">About Us</p>
+                    <ul class="ul__footer">
+                        <li><a href="#" class="link paragraph-2">Our Story</a></li>
+                        <li><a href="#" class="link paragraph-2">Our Works</a></li>
+                        <li><a href="#" class="link paragraph-2">How It Works</a></li>
+                        <li><a href="#" class="link paragraph-2">Our Team</a></li>
+                        <li><a href="#" class="link paragraph-2">Our Clients</a></li>
+                    </ul>
+                </div>
+                <div class="footer__list">
+                    <p class="paragraph-1 gray">Properties</p>
+                    <ul class="ul__footer">
+                        <li><a href="#" class="link paragraph-2">Portfolio</a></li>
+                        <li><a href="#" class="link paragraph-2">Categories</a></li>
+                    </ul>
+                </div>
+
+                <div class="footer__list">
+                    <p class="paragraph-1 gray">Services</p>
+                    <ul class="ul__footer">
+                        <li><a href="#" class="link paragraph-2">Valuation Mastery</a></li>
+                        <li><a href="#" class="link paragraph-2">Strategic Marketing</a></li>
+                        <li><a href="#" class="link paragraph-2">Negotiation Wizardry</a></li>
+                        <li><a href="#" class="link paragraph-2">Closing Success</a></li>
+                        <li><a href="#" class="link paragraph-2">Property Management</a></li>
+                    </ul>
+                </div>
+
+               <div class="footer__list">
+                    <p class="paragraph-1 gray">Contact Us</p>
+                    <ul class="ul__footer">
+                        <li><a href="#" class="link paragraph-2">Contact Form</a></li>
+                        <li><a href="#" class="link paragraph-2">Our Offices</a></li>
+                    </ul>
+                </div>
+            </nav>
+            <nav class="footer__navigation__mobile mobile">
+                <div class="lists lists-1__block">
+                    <div class="footer__list list-1">
+                        <p class="paragraph-1 gray">Home</p>
+                        <ul class="ul__footer">
+                            <li><a href="#" class="link paragraph-2">Hero Section</a></li>
+                            <li><a href="#" class="link paragraph-2">Features</a></li>
+                            <li><a href="#" class="link paragraph-2">Properties</a></li>
+                            <li><a href="#" class="link paragraph-2">Testimonials</a></li>
+                            <li><a href="#" class="link paragraph-2">FAQ’s</a></li>
+                        </ul>
+                    </div>
+
+                    <div class="gray_stick-list2"></div>
+
+                    <div class="footer__list list-3">
+                        <p class="paragraph-1 gray">About Us</p>
+                        <ul class="ul__footer">
+                            <li><a href="#" class="link paragraph-2">Our Story</a></li>
+                            <li><a href="#" class="link paragraph-2">Our Works</a></li>
+                            <li><a href="#" class="link paragraph-2">How It Works</a></li>
+                            <li><a href="#" class="link paragraph-2">Our Team</a></li>
+                            <li><a href="#" class="link paragraph-2">Our Clients</a></li>
+                        </ul>
+                    </div>
+                </div>
+                <div class="lists lists-2__block">
+                    <div class="two_list_footer list-1">
+                        <div class="footer__list">
+                            <p class="paragraph-1 gray">Properties</p>
+                            <ul class="ul__footer">
+                                <li><a href="#" class="link paragraph-2">Portfolio</a></li>
+                                <li><a href="#" class="link paragraph-2">Categories</a></li>
+                            </ul>
+                        </div>
+
+                        <div class="footer__list">
+                            <p class="paragraph-1 gray">Contact Us</p>
+                            <ul class="ul__footer">
+                                <li><a href="#" class="link paragraph-2">Contact Form</a></li>
+                                <li><a href="#" class="link paragraph-2">Our Offices</a></li>
+                            </ul>
+                        </div>
+                    </div>
+
+                    <div class="gray_stick-list2"></div>
+
+                    <div class="footer__list list-3">
+                        <p class="paragraph-1 gray">Services</p>
+                        <ul class="ul__footer">
+                            <li><a href="#" class="link paragraph-2">Valuation Mastery</a></li>
+                            <li><a href="#" class="link paragraph-2">Strategic Marketing</a></li>
+                            <li><a href="#" class="link paragraph-2">Negotiation Wizardry</a></li>
+                            <li><a href="#" class="link paragraph-2">Closing Success</a></li>
+                            <li><a href="#" class="link paragraph-2">Property Management</a></li>
+                        </ul>
+                    </div>
+                </div>
+               
+
+            </nav>
+        </section>
+        <section class="sub_footer">
+            <div class="sub_footer__title">
+                <p class="paragraph-2 white">@2023 Estatein. All Rights Reserved.</p>
+                <p class="paragraph-2 white">Terms & Conditions</p>
+            </div>
+            <div class="sub_footer__network">
+                <a href="#">
+                    <picture class="picture">
+                        <source media="(max-width: 768px)" srcset="image_mobile\Home_images_mobile\facebook_mobile.png">
+                        <source media="(max-width: 1911px)" srcset="image_laptop\Home_images_laptop\facebook_laptop.png">
+                        <img src="image_desktop\Home_images\facebook.png">
+                    </picture>
+                </a>
+                <a href="#">
+                    <picture class="picture">
+                        <source media="(max-width: 768px)" srcset="image_mobile\Home_images_mobile\in_mobile.png">
+                        <source media="(max-width: 1911px)" srcset="image_laptop\Home_images_laptop\in_laptop.png">
+                        <img src="image_desktop\Home_images\in.png">
+                    </picture>
+                </a>
+                <a href="#">
+                    <picture class="picture">
+                        <source media="(max-width: 768px)" srcset="image_mobile\Home_images_mobile\twitter_mobile.png">
+                        <source media="(max-width: 1911px)" srcset="image_laptop\Home_images_laptop\twitter_laptop.png">
+                        <img src="image_desktop\Home_images\twitter.png">
+                    </picture>
+                </a>
+                <a href="#">
+                    <picture class="picture">
+                        <source media="(max-width: 768px)" srcset="image_mobile\Home_images_mobile\youtube_mobile.png">
+                        <source media="(max-width: 1911px)" srcset="image_laptop\Home_images_laptop\youtube_laptop.png">
+                        <img src="image_desktop\Home_images\youtube.png">
+                    </picture>
+                </a>
+            </div>
+        </section>
+    </footer>
+</body>
+</html>

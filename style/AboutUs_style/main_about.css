@@ -1,0 +1,582 @@
+body {
+    margin: 0;
+    font-family: "Urbanist";
+    background-color: #141414;
+}
+
+html {
+    scroll-behavior: smooth;
+    scrollbar-width: none;
+}
+
+::-webkit-scrollbar {
+    display: none;
+}
+
+.br_laptop {
+    display: none;
+}
+
+.br_mobile {
+    display: none;
+}
+
+.mobile {
+    display: none;
+}
+
+.number__scroll_mobile {
+    display: none;
+}
+
+.footer__navigation__mobile {
+    display: none;
+}
+
+.values_features-mobile {
+    display: none;
+}
+
+.scoll__btn_mobile {
+    display: none;
+}
+
+                            /*PICTURES_BLOCK*/
+
+.picture {
+    display: block;
+}
+
+.picture > source {
+    display: block;
+}
+
+.picture > img {
+    display: block;
+}
+
+                            /*NAVIGATION*/
+
+.navigation {
+    max-width: 1920px;
+    margin: 0 auto;
+    padding: 20px 162px;
+    box-sizing: border-box;
+    background-color: #1A1A1A;
+    display: flex;
+    justify-content: space-between;
+    border-bottom: 1px solid #262626;
+}
+
+.logo__nav {
+    display: flex;
+    gap: 10px;
+    align-items: center;
+}
+
+.btn__nav {
+    display: flex;
+    gap: 30px;
+    align-items: center;
+}
+
+                            /*HEADER*/
+
+.header {
+    max-width: 1920px;
+    margin: 0 auto;
+    padding: 100px 162px 0;
+    box-sizing: border-box;
+    display: flex;
+    gap: 80px;
+    align-items: center;
+} 
+
+.title_section {
+    display: flex;
+    flex-direction: column;
+    gap: 14px;
+}
+
+.header_text_block {
+    display: flex;
+    flex-direction: column;
+    gap: 80px;
+}
+
+.header_card {
+    padding: 24px;
+    border-radius: 12px;
+    background-color: #1A1A1A;
+    border: 1px solid #262626;
+}
+
+.header_feature_cards {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    gap: 20px;
+}
+
+
+                            /*VALUES*/
+
+.values {
+    max-width: 1920px;
+    margin: 0 auto;
+    padding: 150px 162px 0;
+    box-sizing: border-box;
+    display: flex;
+    gap: 80px;
+    align-items: center;
+}
+
+.values_features {
+    max-width: 999px;
+    box-sizing: border-box;
+    padding: 60px;
+    border-radius: 12px;
+    border: 1px solid #262626;
+    display: flex;
+    flex-direction: column;
+    gap: 30px;
+    box-shadow: 
+    0 0 0 10px #191919;
+}
+
+.values_section {
+    display: flex;
+    gap: 30px;
+}
+
+.card-1,
+.card-3 {
+    flex: 1;
+}
+
+.card-2 {
+    flex: 0 0 auto;
+    width: 1px;
+    background-color: #262626;
+}
+
+.values_card {
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+}
+
+.values_card_title {
+    display: flex;
+    gap: 14px;
+    align-items: center;
+}
+
+.gray_stick {
+    height: 1px;
+    width: auto;
+}
+
+
+                            /*ACHIEVEMENTS*/
+
+.achievements {
+    max-width: 1920px;
+    margin: 0 auto;
+    padding: 150px 162px 0;
+    box-sizing: border-box;
+    display: flex;
+    flex-direction: column;
+    gap: 80px;
+}
+
+.achievements_featured {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    gap: 40px;
+}
+
+.achievements_card {
+    padding: 50px;
+    display: flex;
+    flex-direction: column;
+    gap: 30px;
+    border-radius: 12px;
+    border: 1px solid #262626;
+    box-shadow: 
+    0 0 0 8px #191919;
+}
+
+                            /*NAVIGATING*/
+
+.navigating {
+    max-width: 1920px;
+    margin: 0 auto;
+    padding: 150px 162px 0;
+    box-sizing: border-box;
+    display: flex;
+    flex-direction: column;
+    gap: 80px;
+}
+
+.navigating_featured {
+    display: grid;
+    grid-template-columns: repeat(3, 2fr);
+    column-gap: 30px;
+    row-gap: 50px;
+}
+
+.navigating_featured_card {
+    display: flex;
+    flex-direction: column;
+    border-left: 1px solid #262626;
+    border-radius: 0 0 0 12px;
+}
+
+.card_info {
+    padding: 50px;
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+    border: 1px solid #262626;
+    border-left: 0px;
+    border-radius: 0 12px 12px 12px;
+    height: 100%;
+}
+
+.step {
+    padding: 16px 20px;
+}
+
+                            /*TEAM*/
+
+.team {
+    max-width: 1920px;
+    margin: 0 auto;
+    padding: 150px 162px 0;
+    box-sizing: border-box;
+    display: flex;
+    flex-direction: column;
+    gap: 80px;
+}
+
+.team_cards_block {
+    display: flex;
+    justify-content: space-between;
+}
+
+.team_card {
+    padding: 30px;
+    display: flex;
+    flex-direction: column;
+    gap: 50px;
+    border: 1px solid #262626;
+    border-radius: 12px;
+}
+
+.team_card_main {
+    display: flex;
+    flex-direction: column;
+    gap: 24px;
+}
+
+.name_profile_block {
+    display: flex;
+    flex-direction: column;
+    gap: 6px;
+    align-items: center;
+}
+
+.contact_team_btn {
+    display: flex;
+    justify-content: space-between;
+    padding: 14px 14px 14px 24px;
+    border-radius: 100px;
+    background-color: #1A1A1A;
+    align-items: center;
+}
+
+.relative {
+    position: relative;
+}
+
+.special_btn {
+    position: absolute;
+    padding: 14px 26px;
+    border-radius: 100px;
+    background-color: #703BF7;
+    left: 50%;
+    transform: translateX(-50%);
+    bottom: -10%;
+}
+
+                            /*VALUED*/
+
+.valued {
+    max-width: 1920px;
+    margin: 0 auto;
+    padding: 150px 162px 0;
+    box-sizing: border-box;
+    display: flex;
+    flex-direction: column;
+    gap: 80px;
+}
+
+.valued_cards {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    gap: 50px;
+    box-sizing: border-box;
+}
+
+.valued_card {
+    padding: 50px;
+    display: flex;
+    flex-direction: column;
+    gap: 40px;
+    border-radius: 12px;
+    border: 1px solid #262626;
+    box-sizing: border-box;
+    box-shadow: 
+    0 0 0 8px #191919;
+}
+
+.valued_card_block-one {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.valued_card_block_title {
+    display: flex;
+    flex-direction: column;
+    gap: 6px;
+}
+
+.span_valued {
+    display: flex;
+    gap: 6px;
+}
+
+.block-two__card {
+    display: flex;
+    flex-direction: column;
+    gap: 8px;
+}
+
+.valued_card_block-two {
+    display: flex;
+    gap: 30px;
+}
+
+.card1,
+.card3 {
+    flex: 1;
+}
+
+.card2 {
+    flex: 0 0 auto;
+    width: 1px;
+    background-color: #262626;
+}
+
+.valued_card_block-three {
+    padding: 30px;
+    display: flex;
+    flex-direction: column;
+    gap: 14px;
+    border-radius: 12px;
+    border: 1px solid #262626;
+}
+
+
+
+
+
+
+
+
+
+.number__scroll {
+    display: flex;
+    gap: 7px;
+}
+
+.scoll__btn {
+    display: flex;
+    gap: 10px;
+}
+
+.slide__block {
+    display: flex;
+    justify-content: space-between;
+    align-items: start;
+    padding-top: 20px;
+    border-top: 1px solid #262626;
+}
+
+.slide_and_block {
+    display: flex;
+    flex-direction: column;
+    gap: 50px;
+}
+
+
+                            /*CTA*/
+.CTA {
+    max-width: 1920px;
+    margin: 0 auto;
+    padding: 100px 162px;
+    box-sizing: border-box;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-top: 100px;
+    border-top: 1px solid #262626;
+    border-bottom: 1px solid #262626;
+    position: relative;
+}
+
+.CTA__title {
+    display: flex;
+    flex-direction: column;
+    gap: 14px;
+}
+
+.abstract__left {
+    position: absolute;
+    left: 0;
+    bottom: 0;
+    z-index: -1;
+}
+
+.abstract__right {
+    position: absolute;
+    right: 0;
+    bottom: 0;
+    z-index: -1;
+}
+
+
+                            /*FOOTER*/
+.footer {
+    max-width: 1920px;
+    margin: 0 auto;
+    padding: 100px 162px;
+    box-sizing: border-box;
+    display: flex;
+    justify-content: space-between;
+}
+
+.contact__footer {
+    display: flex;
+    flex-direction: column;
+    gap: 30px;
+}
+
+.input__footer {
+    font-family: "Urbanist";
+    font-size: 18px;
+    font-weight: 500;
+    line-height: 24px;
+    letter-spacing: -0.6%;
+    margin: 0;
+    width: 365px;
+    height: 66px;
+    background-color: #141414;
+    border-radius: 12px;
+    border: 1px solid #262626;
+    box-shadow: none;
+    padding-left: 58px;
+    color: #fff;
+}
+
+.input__footer::placeholder {
+    font-family: "Urbanist";
+    font-size: 18px;
+    font-weight: 500;
+    line-height: 24px;
+    letter-spacing: -0.6%;
+    margin: 0;
+}
+
+.label__block {
+    position: relative;
+}
+
+.placeholder__left {
+    position: absolute;
+    left: 6%;
+    bottom: 36%;
+}
+
+.placeholder__right {
+    position: absolute;
+    right: 6%;
+    bottom: 28%;
+}
+
+.footer__navigation {
+    width: 978px;
+    display: flex;
+    justify-content: space-between;
+}
+
+.footer__list {
+    display: flex;
+    flex-direction: column;
+    gap: 30px;
+}
+
+.ul__footer {
+    margin: 0;
+    padding: 0;
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+}
+
+.ul__footer > li {
+    list-style: none;
+}
+
+                            /*SUB_FOOTER*/
+
+.sub_footer {
+    max-width: 1920px;
+    margin: 0 auto;
+    padding: 16px 162px;
+    box-sizing: border-box;
+    background-color: #1A1A1A;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.sub_footer__title {
+    display: flex;
+    gap: 38px;
+}
+
+.sub_footer__network {
+    display: flex;
+    gap: 10px;
+}
+
+
+
+
+.title_section {
+    position: relative;
+}
+
+.zvezdi {
+    position: absolute;
+    top: -18%;
+    left: -2%;
+}
+
+.zvezdi-2 {
+    position: absolute;
+    left: -1%;
+    top: -18%;
+}
